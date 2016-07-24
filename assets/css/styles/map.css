@@ -1,0 +1,28 @@
+header {
+  background-color: white;
+
+}
+
+.main-header {
+  height: 90px;
+}
+
+.main-header #company-name p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.main-header #main-menu {
+  margin-top: 33px;
+  font-size: 17px;
+}
+
+.main-header #main-menu li {
+  list-style: none;
+}
+
+.main-header #main-menu li a{
+  list-style: none;
+  color: black;
+}
