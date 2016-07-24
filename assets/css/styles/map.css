@@ -6,6 +6,7 @@ body {
   background-image: url("../../img/background.jpg");
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);
+  overflow-x: hidden;
 }
 
 header {
@@ -31,7 +32,30 @@ header {
   list-style: none;
 }
 
-.main-header #main-menu li a{
+.main-header #main-menu a li {
   list-style: none;
   color: black;
+  padding: 0 30px;
+}
+
+.main-header #main-menu a li:hover {
+  border-bottom: .5px;
+  border-bottom: solid black;
+}
+
+body #contact-form {
+  display: none;
+  background-color: white;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+
+body #contact-form #close-button {
+  position: absolute;
+  left: 90%;
+  font-size: 15px;
+  height: 30px;
+  width: 30px;
+  z-index: 9999;
 }

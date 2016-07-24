@@ -12,58 +12,113 @@
 		<body>
 			<header class="main-header">
 				<div class="container">
-				<div class="row">
-
-				<div class="col-md-3">
-					<nav id="main-menu">
-						<ul class="inline content-header">
-							<li class=""><a href="#">AUTENTICADO COMO</a></li>
-						</ul>
-					</nav>
+					<div class="row">
+						<div class="col-md-12">
+							<nav id="main-menu">
+								<ul>
+									<a href="#">
+										<li class="col-md-3">
+											<p class="text-center">
+												AUTENTICADO COMO
+											</p>
+										</li>
+									</a>
+									<a href="#">
+										<li class="col-md-3">
+											<p class="text-center">
+												EXPANDIR MAPA
+											</p>
+										</li>
+									</a>
+									<a href="#">
+										<li class="col-md-3">
+											<p class="text-center">
+												CADASTRAR FURTO
+											</p>
+										</li>
+									</a>
+									<a href="#">
+										<li id="contact-us" class="col-md-3">
+											<p class="text-center">
+												ENTRAR EM CONTATO
+											</p>
+										</li>
+									</a>
+								</ul>
+							</nav>
+						</div>
+					</div>
 				</div>
-
-        <div class="col-md-3">
-						<nav id="main-menu">
-							<ul class="inline content-header">
-								<li class=""><a href="#">EXPANDIR MAPA</a></li>
-							</ul>
-        	</div>
-
-
-        <div class="col-md-3">
-          <nav id="main-menu">
-            <ul class="inline content-header">
-              <li class=""><a href="#">CADASTRAR FURTO</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="col-md-3">
-          <nav id="main-menu">
-            <ul class="inline content-header">
-              <li class=""><a href="#">ENTRAR EM CONTATO</a></li>
-            </ul>
-          </nav>
-        </div>
-
-          </div>
-        </div>
 			</header>
 
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15877.100217674797!2d-35.23133055!3d-5.81677595!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1469328060031" width="1230" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
 
-<div class="row">
-	<div class="col-md-12 text-center">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15877.100217674797!2d-35.23133055!3d-5.81677595!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1469328060031" width="1230" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
-</div>
+			<div class="row">
+				<div id="contact-form" class="col-md-4">
+					<form class="" action="index.html" method="post">
+						<a id="close-button" href="#">
+							<i class="fa fa-times" aria-hidden="true"></i>
+						</a>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<div class="row">
+									<div class="col-md-12 text center">
+										<label for="">Nome:</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<input type="text" name="name" value="">
+									</div>
+								</div>
+							</div>
+						</div>
 
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<div class="row">
+									<div class="col-md-12 text center">
+										<label for="">Email:</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<input type="text" name="email" value="">
+									</div>
+								</div>
+							</div>
+						</div>
 
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<div class="row">
+									<div class="col-md-12 text center">
+										<label for="">Mensagem:</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<input type="text" name="message" value="">
+									</div>
+								</div>
+							</div>
+						</div>
 
-
-
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<button type="button" class="btn btn-success">Enviar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
 
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-
+		<script type="text/javascript" src="assets/js/map.js"></script>
 		</body>
 </html>
